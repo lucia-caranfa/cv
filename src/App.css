@@ -1,0 +1,66 @@
+.App h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 100px;
+  display: inline-block;
+}
+
+.App-h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 150px 0px 80px 100px;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.App-h3,
+.App-h4 {
+  display: inline-block;
+  margin: 10px 50px 10px 100px;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.App-h3 {
+  font-size: 35px;
+}
+
+.App-h4 {
+  font-size: 25px;
+}
+
+b {
+  color: #2ED8D3;
+}
+
+i {
+  font-size: 120px;
+}
+
+.foto-perfil {
+  width: 400px;
+  float: right;
+  margin: 100px 150px 0px 0px;
+  border-top: 20px solid #2ED8D3;
+  border-right: 20px solid #2ED8D3;
+}
+
+.spa,
+.eng {
+  background-color: #b0b0b0;
+  width: 600px;
+  height: 100px;
+  margin: 0px 0px 50px 200px;
+  border-radius: 50px;
+  color: #000;
+  display: inline-block;
+}
+
+.spa,
+.eng {
+  border-right: 5px solid #2ED8D3;
+  border-left: 5px solid #2ED8D3;
+}

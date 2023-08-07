@@ -1,0 +1,50 @@
+.skills {
+    width: 400px;
+    height: 150px;
+    border-radius: 3px;
+    background-color: #303030;
+    color: #e7e7e7;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #26b4af;
+    display: inline-block;
+    line-height: 1.2;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 20px;
+}
+
+.skills img {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding: 15px;
+}
+
+.skills h2 {
+    font-size: 35px;
+}
+
+.skills h4 {
+    font-size: 20px;
+}
+
+/*----------------effects---------------*/
+
+.skills:hover {
+    background-color: #434343;
+}
+
+.skills:hover.skills h2 {
+    font-size: 38px;
+    transition: font-size 0.2s;
+}
+
+.skills:hover.skills h4 {
+    font-size: 23px;
+}
+
+.skills:hover.skills img {
+    width: 110px;
+    height: 110px;
+    transition: 0.2s;
+}

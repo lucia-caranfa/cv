@@ -1,0 +1,49 @@
+.autodidacta {
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 20px;
+    color: #e7e7e7;
+    text-align: center;
+    box-shadow: 5px 5px 5px #26b4af;
+    line-height: 1.2;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 20px;
+    border: 2px solid #26b4af;
+}
+
+.autodidacta h2 {
+    font-size: 30px;
+}
+
+.autodidacta h3 {
+    font-size: 25px;
+}
+
+.autodidacta h4 {
+    font-size: 20px;
+}
+
+/*---------------effects-------------*/
+
+.autodidacta:hover {
+    background-color: #444444;
+    height: 250px;
+    transition: 0.2s;
+}
+
+.autodidacta:hover.autodidacta h2 {
+    font-size: 33px;
+    transition: font-size 0.2s;
+}
+
+.autodidacta:hover.autodidacta h3 {
+    font-size: 27px;
+
+}
+
+.autodidacta:hover.autodidacta h4 {
+    font-size: 23px;
+
+}

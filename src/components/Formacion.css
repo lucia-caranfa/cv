@@ -1,0 +1,56 @@
+.formacion {
+    width: 700px;
+    height: 290px;
+    border-radius: 3px;
+    background-color: #1c1c1c;
+    color: #e7e7e7;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #26b4af;
+    line-height: 1.2;
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 20px;
+}
+
+.formacion p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.formacion h2 {
+    font-size: 35px;
+}
+
+.formacion h3 {
+    font-size: 25px;
+}
+
+.formacion h4 {
+    font-size: 25px;
+}
+
+/*--------------effects-------------*/
+
+.formacion:hover {
+    background-color: #272727;
+    width: 730px;
+    height: 350px;
+    transition: 0.2s;
+}
+
+.formacion:hover.formacion p {
+    font-size: 24px;
+    transition: font-size 0.1s;
+}
+
+.formacion:hover.formacion h2 {
+    font-size: 39px;
+}
+
+.formacion:hover.formacion h3 {
+    font-size: 28px;
+}
+
+.formacion:hover.formacion h4 {
+    font-size: 29px;
+}
